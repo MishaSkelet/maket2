@@ -1,0 +1,34 @@
+.container{
+    position: relative;
+    background-color: rgb(247, 249, 249);
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+}
+
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation: suuuuuu 6s ease-in 2s infinite alternate;
+}
+
+@keyframes suuuuuu {
+    0%{
+        background-color: rgb(240, 31, 31);
+        top: 0;
+    }
+    25%{
+        background-color: rgb(19, 19, 124);
+        top: 400px;
+        left:400px;
+    }
+    50%{
+        background-color: rgb(25, 141, 25);
+        left: 0;
+        top: 0;
+    }
+    100%{
+        background-color: rgb(234, 234, 57);
+    }
+}
